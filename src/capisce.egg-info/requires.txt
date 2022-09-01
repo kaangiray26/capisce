@@ -1,0 +1,4 @@
+requests
+Flask
+ratelimit
+flask_cors
