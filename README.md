@@ -1,9 +1,7 @@
+# `capisce`: The Open-Source API Testing Tool
 ![PyPI](https://img.shields.io/pypi/v/capisce?color=blue)
 [![GitHub license](https://img.shields.io/github/license/kaangiray26/capisce)](https://github.com/kaangiray26/capisce/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/kaangiray26/capisce)](https://github.com/kaangiray26/capisce/issues)
-
-# capisce
-The Open-Source API Testing Tool
 
 `capisce` is an easy-to-use testing platform for APIs. For now we have the following features:
 
