@@ -30,4 +30,4 @@ However, if you want to use an online instance, check out the following website:
 ---
 
 ## Screenshots
-![](images/image.png)
+![](https://raw.githubusercontent.com/kaangiray26/capisce/main/images/image.png)
