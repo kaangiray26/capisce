@@ -13,7 +13,7 @@
 * Download response body according to the associated MIME types
 
 ## PyPI
-https://pypi.org/project/sourtimes/
+https://pypi.org/project/capisce/
 
 ## Installation
 ```
