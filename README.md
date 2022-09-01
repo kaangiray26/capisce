@@ -1,5 +1,18 @@
+![PyPI](https://img.shields.io/pypi/v/capisce?color=blue)
+[![GitHub license](https://img.shields.io/github/license/kaangiray26/capisce)](https://github.com/kaangiray26/capisce/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/kaangiray26/capisce)](https://github.com/kaangiray26/capisce/issues)
+
 # capisce
-Open-Source API Testing Tool
+The Open-Source API Testing Tool
+
+`capisce` is an easy-to-use testing platform for APIs. For now we have the following features:
+
+* Make GET, HEAD, POST, PUT, DELETE, OPTIONS and PATCH requests
+* Display response/request data
+* Create previews for response body with content types such as text, image, video, audio, etc.
+* See your history of requests
+* Switch between requests from the history and show up their data
+* Download response body according to the associated MIME types
 
 ## PyPI
 https://pypi.org/project/sourtimes/
@@ -10,4 +23,13 @@ pip install sourtimes
 ```
 
 ## Quickstart
-The package provides a command-line tool named `capisce`, which runs a local web server. Normally, the command-line tool opens up the webpage automatically, but if it doesn't, you can go to the address [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to open up the tool.
+The package provides a command-line tool named `capisce`, which runs a local web server at http://127.0.0.1:5000/. Normally, the tool is configured to open up the webpage automatically.
+
+However, if you want to use an online instance, check out the following website:
+
+## https://capisce.buzl.uk/
+
+---
+
+## Screenshots
+![](images/image.png)
