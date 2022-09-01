@@ -1,4 +1,4 @@
-#!/env/bin/python
+#!/usr/bin/env python3
 # -*- encoding:utf-8 -*-
 
 import webbrowser
@@ -8,16 +8,16 @@ from flask import (Flask, Response, render_template, request,
 from flask_cors import CORS
 from ratelimit import limits, sleep_and_retry
 
-from req import Req
+from capisce.req import Req
 
-app = Flask(__name__, template_folder='docs')
+app = Flask(__name__)
 app.req = Req()
 CORS(app)
 
 _CALLS = 100
 _PERIOD = 60
 
-webbrowser.open('http://localhost:5000', new=2)
+webbrowser.open('http://127.0.0.1:5000', new=2)
 
 
 @app.route("/")
@@ -115,8 +115,12 @@ def patch():
 @sleep_and_retry
 @limits(calls=_CALLS, period=_PERIOD)
 def serve_static_files(path):
-    return send_from_directory('docs/assets', path)
+    return send_from_directory('templates/assets', path)
 
 
-if __name__ == '__main__':
+def main():
     app.run(host='127.0.0.1', port='5000')
+
+
+if __name__ == "__main__":
+    main()

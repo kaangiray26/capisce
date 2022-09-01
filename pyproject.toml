@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "capisce"
-version = "0.0.1"
+version = "0.0.14"
 authors = [
     {name = "Kaan Giray Buzluk", email = "kaangiray26@protonmail.com"},
 ]
@@ -23,6 +23,9 @@ dependencies = [
     "ratelimit",
     "flask_cors",
 ]
+
+[project.scripts]
+capisce = "capisce.wsgi:main"
 
 [project.urls]
 "Homepage" = "https://github.com/kaangiray26/capisce"
