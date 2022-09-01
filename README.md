@@ -17,7 +17,7 @@ https://pypi.org/project/sourtimes/
 
 ## Installation
 ```
-pip install sourtimes
+pip install capisce
 ```
 
 ## Quickstart
