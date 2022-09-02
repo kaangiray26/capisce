@@ -3,6 +3,8 @@
 [![GitHub license](https://img.shields.io/github/license/kaangiray26/capisce)](https://github.com/kaangiray26/capisce/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/kaangiray26/capisce)](https://github.com/kaangiray26/capisce/issues)
 
+![](https://raw.githubusercontent.com/kaangiray26/capisce/main/images/image.png)
+
 `capisce` is an easy-to-use testing platform for APIs. For now we have the following features:
 
 * Make GET, HEAD, POST, PUT, DELETE, OPTIONS and PATCH requests
@@ -26,8 +28,3 @@ The package provides a command-line tool named `capisce`, which runs a local web
 However, if you want to use an online instance, check out the following website:
 
 ## https://capisce.buzl.uk/
-
----
-
-## Screenshots
-![](https://raw.githubusercontent.com/kaangiray26/capisce/main/images/image.png)
